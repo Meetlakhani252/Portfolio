@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mit Lakhani - Software Developer</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">ML</div>
+            <div class="mobile-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Mit Lakhani</h1>
+                <p class="subtitle">Full Stack Developer</p>
+                <p>I build exceptional digital experiences that combine beautiful design with powerful functionality. Specializing in modern web technologies and scalable applications.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Developer workspace">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate full stack developer building web applications and learning new technologies. I love turning complex problems into simple, easy solutions.</p>
+                    <p>My expertise lies in creating responsive, user-friendly interfaces and robust backend systems. I'm constantly learning new technologies and best practices to deliver the best possible results.</p>
+                    <p>When I'm not coding, you can find me contributing to open source projects, writing technical blog posts, or exploring the latest web technologies.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <h4>Html, Css, JavaScript</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>React/Next.js</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Node.js/Express</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h4>MySQL</h4>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-badge">🎓</div>
+                    <div class="cert-content">
+                        <h3>AWS Certified Solutions Architect</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <p class="cert-date">Issued: Jan 2024</p>
+                        <p class="cert-description">Professional-level certification demonstrating expertise in designing distributed systems on AWS.</p>
+                        <a href="#" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-badge">⚛️</div>
+                    <div class="cert-content">
+                        <h3>Meta Front-End Developer</h3>
+                        <p class="cert-issuer">Meta (Facebook)</p>
+                        <p class="cert-date">Issued: Oct 2023</p>
+                        <p class="cert-description">Professional Certificate covering React, JavaScript, HTML/CSS, and modern front-end development.</p>
+                        <a href="#" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-badge">🔐</div>
+                    <div class="cert-content">
+                        <h3>Certified Kubernetes Administrator</h3>
+                        <p class="cert-issuer">Cloud Native Computing Foundation</p>
+                        <p class="cert-date">Issued: Aug 2023</p>
+                        <p class="cert-description">Hands-on certification for Kubernetes administration, deployment, and troubleshooting.</p>
+                        <a href="#" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-badge">🗄️</div>
+                    <div class="cert-content">
+                        <h3>MongoDB Certified Developer</h3>
+                        <p class="cert-issuer">MongoDB University</p>
+                        <p class="cert-date">Issued: May 2023</p>
+                        <p class="cert-description">Associate-level certification covering MongoDB fundamentals, CRUD operations, and data modeling.</p>
+                        <a href="#" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-badge">🎯</div>
+                    <div class="cert-content">
+                        <h3>Google Cloud Professional</h3>
+                        <p class="cert-issuer">Google Cloud</p>
+                        <p class="cert-date">Issued: Mar 2023</p>
+                        <p class="cert-description">Professional Cloud Architect certification demonstrating ability to design robust GCP solutions.</p>
+                        <a href="#" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-badge">💻</div>
+                    <div class="cert-content">
+                        <h3>Full Stack Web Development</h3>
+                        <p class="cert-issuer">freeCodeCamp</p>
+                        <p class="cert-date">Issued: Dec 2022</p>
+                        <p class="cert-description">Comprehensive certification covering responsive web design, APIs, and microservices.</p>
+                        <a href="#" class="cert-link">View Credential →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+       
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects and Certificates</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🛒</div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured e-commerce solution with payment integration, inventory management, and real-time analytics.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Live Demo →</a>
+                            <a href="#">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">💬</div>
+                    <div class="project-content">
+                        <h3>Real-Time Chat App</h3>
+                        <p>A scalable chat application with WebSocket support, file sharing, and end-to-end encryption.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Live Demo →</a>
+                            <a href="#">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>An interactive data visualization dashboard with real-time updates and customizable reports.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Live Demo →</a>
+                            <a href="#">GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>meetlakhani252@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 1122334455</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Mumbai, Maharashtra, India</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#">𝕏</a>
+            <a href="#">in</a>
+            <a href="#">GH</a>
+            <a href="#">📧</a>
+        </div>
+        <p>&copy; 2026 Mit Lakhani.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
